@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Nhi Portfolio Website</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo"> 
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Visual Designer</p>
+            <h1>Hi, I'm <span>Nhi</span><br>from Vietnam</h1>
+       </div>
+     </div>
+</div>
+
+<!-- -------about--------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am Nhi HUYNH, student in L3 Visual Studies, Media and Digital Arts at Gustave Eiffel University (Paris). My previous background is in digital marketing, I have 2 years of experience in the advertising industry in Vietnam. Thanks to these experiences, I discovered my passion for the visual arts, so I redirected my career towards digital art direction, graphic design, editorial design, photography, video animation and web design.</p>
+                
+                <div class="tab-titles">
+                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skill">
+                    <ul>
+                        <li><span>Graphism</span><br> Designing logos, icons and visual communication </li>
+                        <li><span>Audiovisual</span><br>Producing video content and poss-production</li>
+                        <li><span>Web Development</span><br>Designing Web/ App Interfaces </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br> Visual Designer at Health Services, Gustave Eiffel University </li>
+                        <li><span>2019 - 2020</span><br>Junior Account Executive at DigiPencil MVV</li>
+                        <li><span>2018</span><br> Digital Markerting Intern at Isobar Group </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - Current</span><br> Gustave Eiffel University  </li>
+                        <li><span>2019</span><br> University of Economics Ho Chi Minh City </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class ="sub-title">My Work</h1>
+        <div class ="work-list">
+            <div class="work">
+               <img src="images/work01.png">
+               <div class="layer">
+                   <h3> Graphic Design</h3>
+                   <p>My experience with Photoshop, illustrator and inDesign allowed me to create several magazines including Rana magazine, in collaboration with 4 others.</p>
+               </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work02.jpg">
+                <div class="layer">
+                    <h3> Animation Project</h3>
+                    <p>Using After Effect to create a lyrics video of the song Apocalyse</p>               
+                </div>
+             </div>
+
+             <div class="work">
+                <img src="images/work03.png">
+                <div class="layer">
+                    <h3> Mini Blog: Virtual Art Gallery</h3>
+                    <p>This project carried out during the course of Technology of the web in my first year in EVMAN. It's about a internet page allowing to see a series of images. The challenge is to find an interactive principle allowing to navigate in these pictures.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work04.jpg">
+                <div class="layer">
+                    <h3> Photography</h3>
+                    <p>I practice photography and I particularly like film photos. The subjects I usually photograph are portraits, landscapes and still lifes.</p>      
+                </div>
+             </div>
+             
+            <div class="work">
+                <img src="images/work05.png">
+                <div class="layer">
+                    <h3> Packaging Design</h3>
+                    <p>I created the design for a turmeric powder packaging. I opted for a fairly simple design so that we can easily identify the product, and that it is easily accessible.</p>      
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work06.png">
+                <div class="layer">
+                    <h3> Poster Design</h3>
+                    <p>This photographic work is a poster banner based on photography. This is a series of photos of people wearing masks on public transport and put them together in one photo poster form with the aim of raising awareness about the importance of masks on public transport.</p>      
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work07.png">
+                <div class="layer">
+                    <h3> Typography Project</h3>
+                    <p>Album cover design: Blues eyes unchanged</p>      
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work08.png">
+                <div class="layer">
+                    <h3> Poster exhibition design </h3>
+                    <p>I made a poster for a client for her painting exhibition</p>      
+                </div>
+            </div>
+
+        </div>
+   </div>
+</div>
+
+<!-- -------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="mailto:qnhi.huynh@gmail.com">qnhi.huynh@gmail.com</a></p>
+                <p><a href="tel: 0767983883">0767983883</a></p>
+               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © Nhi. </p>
+    </div>
+</div>
+
+
+
+<script>
+ var tablinks = document.getElementsByClassName("tab-links");
+ var tabcontents = document.getElementsByClassName("tab-contents");
+
+ function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+ }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnQApt8ZP9v5Kuw0GG9r3FyDnjmzHXTOY0QhFbSfMqVcLwUJ2O8_eerxx0OLR42uw8bw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
